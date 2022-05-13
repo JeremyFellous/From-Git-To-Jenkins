@@ -5,7 +5,7 @@ pipeline {
         stage('stage1') {
             steps {
                 echo 'Hello World'
-                python main.py
+                python "main.py"
             }
         }
     }
