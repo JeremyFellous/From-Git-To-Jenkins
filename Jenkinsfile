@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('stage1') {
             steps {
-                echo 'Hello World'
-//                 python "main.py"
+//                 echo 'Hello World'
+                python main.py
             }
         }
     }
