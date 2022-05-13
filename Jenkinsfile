@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('stage1') {
             steps {
-//                 echo 'Hello World'
+                bat "dir"
+                echo 'Hello World'
                 bat "python main.py"
             }
         }
